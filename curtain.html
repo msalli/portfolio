@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>curtain trick</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <!-- fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+
+  <!-- <div id="header">
+    <a id="start" href="javascript:void(0);" onclick="ShowBox();">Start the Show!</a>
+  </div> -->
+
+<ul id="scene"
+ data-calibrate-x="false"
+  data-calibrate-y="true"
+  data-invert-x="false"
+  data-invert-y="true"
+  data-limit-x="false"
+  data-limit-y="10"
+  data-scalar-x="2"
+  data-scalar-y="8"
+  data-friction-x="0.2"
+  data-friction-y="0.8"
+  data-origin-x="0.0"
+  data-origin-y="1.0">
+
+  <li class="layer" id="stars" data-depth="0.00"><img src="style/images/stars_edit.png"></li>
+
+  <li class="layer" id="forest" data-depth="0.70"><img src="style/images/forest.png"></li>
+  <li class="layer" id="intro" data-depth="0.50"><img src="style/images/intro_edit.png"></li>
+</ul>
+
+
+<div id="second">
+  <ul id="scene2">
+    <li class="layer" id="line1" data-depth="0.20"><p>the course of true love</p></li>
+    <li class="layer" id="potion" data-depth="0.60"><img src="style/images/love_potion.png"></li>
+    <li class="layer" id="bush" data-depth="0.40"><img src="style/images/bush.png"></li>
+    <li class="layer" id="bush2" data-depth="0.40"><img src="style/images/bush.png"></li>
+    <li class="layer" id="bush3" data-depth="0.40"><img src="style/images/bush.png"></li>
+    <li class="layer" id="puck" data-depth="0.50"><img src="style/images/puck.png"></li>
+    <li class="layer" data-depth="0.00"><img src=""></li>
+  </ul>
+</div>
+
+
+<div id="third">
+  <ul id="scene3">
+    <li class="layer" id="line2" data-depth="0.20">never did run smooth.</li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+<div id="scene2">
+    <div id="line2">
+      <p>never did run smooth</p>
+    </div>
+  </div> -->
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/parallax/1.1.1/jquery.parallax.min.js"></script>
+
+  <script type="text/javascript" src="js/myjquery.js"></script>
+
+</body>
+</html>
